@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/sonyericsson"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body.dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'SonyEricsson', sans-serif;
+        }
+        .dark-mode-card {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border-radius: 10px;
+            border: 2px solid #ff6600;
+        }
+        nav.green.darken-3 {
+            background-color: #ff6600 !important;
+            border-radius: 10px;
+        }
+        .container, .section, .card, .nav-wrapper {
+            border-radius: 10px;
+        }
+        h1, a {
+            color: #ff6600 !important;
+        }
+        .card-title {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body class="dark-mode">
+    <header>
+        <nav class="green darken-3">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">Portfolio</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="about" class="container section">
+        <h1>Hostel de Montaña</h1>
+        <p>Habitacion privada 4 personas, cama cucheta + cama doble</p>
+    </section>
+    
+    <section id="projects" class="container section">
+        <h1>Reservas</h1>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card dark-mode-card">
+                    <div class="card-content">
+                        <span class="card-title">Cama doble + TV</span>
+                        <p>Habitacion privada 4 personas, cama cucheta + cama doble</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card dark-mode-card">
+                    <div class="card-content">
+                        <span class="card-title">Cama Simple Cucheta</span>
+                        <p>Habitacion compartida cama simple 1 persona</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container section">
+        <h1>Contact</h1>
+        <p>Email: example@example.com</p>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
